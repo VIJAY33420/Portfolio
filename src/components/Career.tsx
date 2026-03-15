@@ -15,43 +15,39 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Bachelor of Computer Science</h4>
+                <h5>Computer Science Student</h5>
               </div>
-              <h3>2020</h3>
+              <h3>EDUCATION</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              <strong>2nd Semester (Current):</strong> C++, React.js, Tailwind CSS, MongoDB <br />
+              <strong>1st Semester:</strong> C Programming, HTML, CSS, JavaScript Fundamentals, Git & GitHub
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Currently Learning</h4>
+                <h5>Goal: Professional Frontend Developer</h5>
               </div>
-              <h3>2021</h3>
+              <h3>FUTURE</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Advanced React, Frontend Development, and Modern UI/UX Design. 
+              My goal is to build impactful software products that solve real-world problems.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Core Strengths</h4>
+                <h5>Fast learner & Problem solver</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>STRENGTHS</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Passionate about building real-world projects with a focus on responsive design and user experience.
             </p>
           </div>
         </div>

@@ -14,12 +14,8 @@ import {
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
   "/images/react2.webp",
-  "/images/next2.webp",
   "/images/node2.webp",
-  "/images/express.webp",
   "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
   "/images/javascript.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
@@ -167,8 +163,30 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="techstack">
+    <div className="techstack" id="techstack">
       <h2> My Techstack</h2>
+      <div className="tech-skills-grid">
+        <div className="skill-category">
+          <h3>Languages</h3>
+          <p>C, C++</p>
+        </div>
+        <div className="skill-category">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React.js, Tailwind CSS</p>
+        </div>
+        <div className="skill-category">
+          <h3>Backend & Database</h3>
+          <p>MongoDB</p>
+        </div>
+        <div className="skill-category">
+          <h3>Tools & Platforms</h3>
+          <p>Git, GitHub, Postman, Netlify, Vercel</p>
+        </div>
+        <div className="skill-category">
+          <h3>Design</h3>
+          <p>Figma, UI/UX Basics</p>
+        </div>
+      </div>
 
       <Canvas
         shadows

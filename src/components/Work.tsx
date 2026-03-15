@@ -5,34 +5,16 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
-  },
-  {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
-  },
-  {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "FixItNow – Local Repair Service Booking",
+    category: "Full-Stack Service Platform",
+    tools: "React, Node.js, MongoDB, Razorpay",
+    features: [
+      "Book repair services (phone, laptop, appliance) from nearby verified technicians",
+      "Track job status in real-time and manage bookings",
+      "Secure online payments and technician rating system",
+      "Automated technician matching based on location and expertise",
+    ],
+    image: "/images/fixitnow.png",
   },
 ];
 
@@ -112,6 +94,11 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        <ul className="carousel-features">
+                          {project.features.map((feature, i) => (
+                            <li key={i}>{feature}</li>
+                          ))}
+                        </ul>
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
